@@ -83,12 +83,18 @@ Set up the folder structure and download the FXServer artifacts.
 # Create directories
 mkdir -p ~/fivem/server
 mkdir -p ~/fivem/server-data
-
+```
+```bash
 # Download & Extract Artifacts
 cd ~/fivem/server
-wget [https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/23683-1062db8a7b8e0c03f7c159be4cbfa181f49b2cc1/fx.tar.xz](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/23683-1062db8a7b8e0c03f7c159be4cbfa181f49b2cc1/fx.tar.xz)
-tar xf fx.tar.xz
+```
+```bash
+wget https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/23683-1062db8a7b8e0c03f7c159be4cbfa181f49b2cc1/fx.tar.xz
+```
+```bash
+tar -xf fx.tar.xz
 rm fx.tar.xz
+```
 ```
 
 ---
